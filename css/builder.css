@@ -1,0 +1,82 @@
+
+.full_wrap {
+	margin: 50px 100px 0 100px;
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('fonts/glyphicons-halflings-regular.eot');
+}
+
+h1, h2, h3 {
+	text-align: center;
+}
+
+.choose_buttons {
+	position: relative;
+	padding: 10px;
+	bottom: 5px;
+}
+
+.sport {
+	position: relative;
+	left: 35%;
+}
+
+.start-time {
+	position: relative;
+	left: 25%;
+}
+
+.player-list {
+	padding: 10px;
+}
+
+.position-tabs {
+	font-weight: bold;
+	display: inline;
+}
+
+.player-list-salary {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.player-list-salary-number {
+	float: right;
+}
+
+.player-formation {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.formation-buttons {
+	right: -18%;
+}
+
+.export-to-csv {
+	margin-top: -20px;
+	margin-left: -10px;
+}
+
+.position-header {
+	width: 10%;
+}
+
+.menu-info {
+	width: 10px;
+}
+
+.important-column {
+	color: #0C79A3;
+	font-weight: bold;
+}
+
+.prize-column {
+	font-weight: bold;
+	color: green;
+}
+
+
+
