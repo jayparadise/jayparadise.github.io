@@ -371,7 +371,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1667,
+				"buffer_size": 2436,
 				"line_ending": "Unix"
 			}
 		},
@@ -379,7 +379,7 @@
 			"file": "builder.html",
 			"settings":
 			{
-				"buffer_size": 11019,
+				"buffer_size": 11279,
 				"line_ending": "Unix"
 			}
 		},
@@ -403,9 +403,13 @@
 	"build_system": "Packages/Ruby/Ruby.sublime-build",
 	"command_palette":
 	{
-		"height": 87.0,
+		"height": 127.0,
 		"selected_items":
 		[
+			[
+				"comment",
+				"Toggle Block Comment"
+			],
 			[
 				"commen",
 				"Toggle Block Comment"
@@ -420,10 +424,6 @@
 			],
 			[
 				"com",
-				"Toggle Block Comment"
-			],
-			[
-				"comment",
 				"Toggle Block Comment"
 			],
 			[
@@ -587,7 +587,7 @@
 				"HTML: Wrap Selection With Tag"
 			]
 		],
-		"width": 484.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -744,7 +744,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -752,15 +752,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1667,
+						"buffer_size": 2436,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								507,
-								507
+								1296,
+								1383
 							]
 						],
 						"settings":
@@ -858,7 +858,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 224.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -868,15 +868,15 @@
 					"file": "builder.html",
 					"settings":
 					{
-						"buffer_size": 11019,
+						"buffer_size": 11279,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1545,
+								1545
 							]
 						],
 						"settings":
