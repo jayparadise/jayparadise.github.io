@@ -1,0 +1,24 @@
+
+.contain {
+	height: 500px;
+	border: 1px solid black;
+	overflow: scroll;
+}
+
+.contain td, .contain th {
+	text-align: center;
+}
+
+.table_header {
+	color: blue;
+}
+
+.headline {
+	margin-top: 100px;
+	text-align: center;
+}
+
+.tabs {
+	margin-bottom: -20px; 
+	font-size: 28px;
+}
