@@ -1,0 +1,115 @@
+/* Variables */
+
+$media-width-large: 1300px;
+$media-width-medium: 750px;
+$media-width-small: 500px;
+
+
+body {
+  background: url(../assets/emiratesfast.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+header {
+  margin: 0 auto;
+  padding-top: 5%;
+  text-align: center;
+  text-transform: uppercase;
+  h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    line-height: 1em;
+  }
+}
+
+.holder {
+  background: rgba(38, 39, 34, 0.7);
+  margin: 1% 5%;
+  padding: 2% 4%;
+  @media (max-width: $media-width-large) {
+    margin: 0 10%;
+    padding: 2%;
+  }
+  @media (max-width: $media-width-small) {
+    margin: 0 20px;
+    padding: 10px;
+  }
+}
+
+.features {
+  font-size: 24px;
+  float: left;
+  border: 1px solid red;
+  li {
+    padding-bottom: 30px;
+    list-style-type: square;
+    line-height: 1em;
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+  @media (max-width: $media-width-large) {
+    float: none;
+    margin: 0 10% 5% 10%;
+  }
+  @media (max-width: $media-width-small) {
+    margin: 0 0 10px 0;
+  }
+}
+
+.sign_up {
+  padding: 15px 25px 15px 25px;
+  background: rgba(172, 172, 172, 0.5);
+  text-align: center;
+  float: right;
+  color: black;
+  text-shadow: none;
+  p {
+    margin-top: 10px;
+  }
+  @media (max-width: $media-width-large) {
+    float: none;
+    margin: 0 auto;
+    padding: 1%;
+    max-width: 50%; 
+  }
+  @media (max-width: $media-width-medium) {
+    max-width: 100%;
+  }
+}
+
+input[type="email"] {
+  height: 28px;
+  font-size: 14px;
+  margin: 10px;
+
+}
+
+.examples {
+  margin: 50px 25px;
+  text-align: center;
+  img {
+    width: 350px;
+    height: auto;
+  }
+}
+
+.images {
+  display: inline-block;
+  margin-right: 40px;
+  text-align: center;
+  &:last-child {
+    margin-right: 0;
+  }
+  @media (max-width: $media-width-medium) {
+    margin: 0 auto;
+  }
+}
+
+.clear {
+  clear: both;
+}
